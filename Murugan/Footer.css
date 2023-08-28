@@ -1,0 +1,46 @@
+.about {
+  color: wheat;
+  font-size: 15px;
+  list-style-type: none;
+  margin-left: 100px;
+  margin-top: 30px;
+  position: absolute;
+}
+.about2 {
+  color: wheat;
+  font-size: 15px;
+  list-style-type: none;
+  margin-left: 400px;
+  margin-top: 30px;
+  position: absolute;
+}
+.para:hover,
+li:hover {
+  text-decoration: underline;
+}
+.para {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+.full2 {
+  background-color: black;
+  margin-top: 400px;
+  height: 200px;
+}
+.about3 {
+  color: wheat;
+  font-size: 15px;
+  list-style-type: none;
+  margin-left: 700px;
+  margin-top: 30px;
+  position: absolute;
+}
+.about4 {
+  color: wheat;
+  font-size: 15px;
+  list-style-type: none;
+  margin-left: 1000px;
+  margin-top: 30px;
+  position: absolute;
+}

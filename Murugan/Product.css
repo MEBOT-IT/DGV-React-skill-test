@@ -1,0 +1,39 @@
+.shirt {
+  margin-left: 100px;
+  margin-top: 50px;
+  height: 400px;
+  position: absolute;
+}
+.hh {
+  margin-left: 800px;
+  font-size: 80px;
+  color: rgb(231, 19, 4);
+  margin-top: 100px;
+  position: absolute;
+}
+.price {
+  font-size: 40px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 500px;
+  margin-right: 100px;
+}
+.btnn {
+  background-color: chartreuse;
+  margin-left: 1000px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(231, 19, 4);
+  font-size: 20px;
+  height: 40px;
+  width: 150px;
+  margin-top: 500px;
+  margin-right: 100px;
+}
+.ppp {
+  font-size: 25px;
+  position: absolute;
+  margin-left: 650px;
+  margin-top: 300px;
+  margin-right: 100px;
+}

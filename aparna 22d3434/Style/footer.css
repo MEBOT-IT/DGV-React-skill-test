@@ -1,0 +1,27 @@
+footer {
+    height: 80%;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+.f1 {
+    margin-left: 35%;
+}
+
+.f2 {
+    margin-left: 60px;
+}
+
+.f1 :hover {
+    color: gold;
+}
+
+.f2 :hover {
+    color: gold;
+}

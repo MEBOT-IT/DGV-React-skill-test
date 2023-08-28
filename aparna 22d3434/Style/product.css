@@ -1,0 +1,30 @@
+.i {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 80px;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+
+}
+
+#ia:hover {
+    background-color: black;
+    color:gold;
+
+
+}
+
+#ia {
+    border: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 15px;
+}

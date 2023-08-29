@@ -1,0 +1,77 @@
+.full {
+    background-color: black;
+    height: 80px;
+  }
+  .hello {
+    color: white;
+    margin-left: 250px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 10px;
+  }
+  .hello:hover {
+    border: 1px solid white;
+    height: 65px;
+  }
+  .amazon {
+    border: none;
+    width: 200px;
+    height: 65px;
+    font-size: 40px;
+    margin-top: 10px;
+    background-color: transparent;
+    position: absolute;
+  }
+  .amazon:hover {
+    border: 1px solid white;
+    height: 65px;
+  }
+  .search {
+    margin-left: 450px;
+    height: 45px;
+    border-style: hidden;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  .search::placeholder {
+    font-size: 20px;
+  }
+  
+  .submit {
+    background-color: rgb(233, 179, 42);
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    margin-top: 13px;
+    border-radius: 5px;
+    margin-left: -4px;
+  }
+  .submit:hover {
+    background-color: rgb(191, 141, 16);
+    height: 50px;
+  }
+  .acc {
+    color: white;
+    margin-left: 970px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -50px;
+  }
+  .acc:hover {
+    border: 1px solid white;
+    height: 65px;
+  }
+  .acc2 {
+    color: white;
+    margin-left: 1170px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: -50px;
+  }
+  .acc2:hover {
+    border: 1px solid white;
+    height: 65px;
+    width: 100px;
+  }

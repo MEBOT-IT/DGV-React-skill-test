@@ -1,0 +1,30 @@
+/* Header.css */
+.header {
+  background-color: rgb(238, 214, 240);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.log {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 24px;
+
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.nav ul li {
+  margin-right: 20px;
+
+}
+

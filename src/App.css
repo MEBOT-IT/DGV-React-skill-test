@@ -1,33 +1,38 @@
-/* NAv BAr */
-.navbar-nav a{
-  font-size: 18px;
+/* theme dark */
+.bg-black{
+  background-color: black;
 }
-.carsousel-item img{
-  height: 550px;
+.bg-light-black{
+  background-color: #262626 !important;
+}
+.text-black{
+  color: black;
+}
+.text-light-black{
+  color: #262626;
+}
+.bg-dark-primary{
+  background-color: #fcbc73 !important;
+}
+.text-dark-primary{
+  color: #fcbc73 !important;
 }
 
-.cartProductContainer{
-  border: 1px solid #000;
-  margin: 5px;
+/* theme light */
+.bg-light{
+  background-color: white;
 }
-.cartProductContainer img{
-  height: 200px;
-  width: 200px;
-  object-fit: contain;
-  background-size: contain;
+.bg-light-2{
+  background-color: #dadcde;
+}
+.bg-light-primary{
+  background-color: #191659 !important;
+}
+.text-light-primary{
+  color: #191659 !important;
 }
 
-.total{
-  font-size: 3rem;
-}
-.statusContainer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* align-items: center; */
-  text-align: center;
-  position: sticky;
-  top: 0;
-  height: 300px;
-  
+
+.react-tel-input input{
+  width: 100% !important;
 }

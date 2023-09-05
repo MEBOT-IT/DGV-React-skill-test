@@ -1,25 +1,33 @@
-import "./App.css";
-import NavBar from "./components/NavBar";
-import Home from "./components/Home";
-import { Switch, Route } from 'react-router-dom';
-import Products from "./components/Products";
-import Product from "./components/Product";
-import Cart from "./components/Cart";
-import Login from "./components/Login";
-import Register from "./components/Register";
+import React from "react";
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { useThemeHook } from './GlobalComponents/ThemeProvider';
+import Header from './components/Header';
+import { Router } from "@reach/router";
+
+//Pages
+import Home from './Pages/Home';
+import Cart from './Pages/Cart';
+import ProductDetails from "./Pages/ProductDetails";
+import SignIn from "./Pages/SignIn";
+import Register from "./Pages/Register";
+import MyAccount from "./Pages/MyAccount";
+
+
 function App() {
+  const [theme] = useThemeHook();
   return (
-    <>
-      <NavBar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/products" component={Products} />
-        <Route exact path="/products/:id" component={Product} />
-        <Route exact path="/cart" component={Cart} />
-        <Route exact path="/login" component={Login} />
-        <Route exact path="/register" component={Register} />
-      </Switch>
-    </>
+    <main className={theme? 'bg-black': 'bg-light-2'} style={{ height: '100vh', overflowY: 'auto'}}>
+      <Header/>
+      <Router>
+        <Home path="/" />
+        <MyAccount path="my-account" />
+        <SignIn path="sign-in"/>
+        <Register path="register"/>
+        <ProductDetails path="product-details/:productId"/>
+        <Cart path="/cart" />
+      </Router>
+    </main>
   );
 }
 
